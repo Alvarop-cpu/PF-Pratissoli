@@ -1,0 +1,22 @@
+@import'./secciones/header';
+@import'./secciones/footer';
+@import'./secciones/albums';
+@import'./secciones/biografia';
+@import'./secciones/entrevistas';
+@import'./secciones/shows';
+@import'./secciones/responsive';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans:wght@700&display=swap');
+*{
+    font-family: PT sans;
+}
+/* Carousel */
+.ancho{ 
+    width: 100%;
+    margin: auto;
+    align-content: center;
+} 
+/* Logo */
+.Logo1{
+    width: 50px;
+}

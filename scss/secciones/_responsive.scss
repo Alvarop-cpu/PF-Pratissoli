@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+    header{
+        box-shadow: 0 4px 4px #7d7d7de8;
+    }
+    
+    .navbar{
+        background-color: #313131 !important;
+    }
+    
+    .navegacion div ul li a{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nav-link:hover{
+        background-color: #434343;
+    }
+
+    .ancho{
+        width: 700px;
+        margin: auto;
+        align-content: center;
+    }
+
+    .Logo1{
+        width: 50px;
+    }
+
+    h1{
+        font-size: 35x;
+        text-align: center;
+    }
+    
+    .antezana{
+        width: 300px;
+    }
+    
+    .hecho{
+        width: 300px;
+    }
+    
+    .tdv{
+        width: 300px;
+    }
+    
+    .ysysmo{
+        width: 300px;
+    }
+    
+    .quinto{
+        margin: 25px;
+    }
+
+    footer{
+        background-color: #313131;
+        box-shadow: 0 4px 4px #7d7d7de8;
+    }
+    
+    h2{
+        margin-top: 25px;
+        text-align: center;
+        color: white;
+    }
+    
+    ul{
+        text-align: center ;
+        list-style: none ;
+        color: white;
+    }
+    
+    li{
+        text-decoration: none;
+    }
+    
+    .d-flex{
+        justify-content: center;
+    }
+    
+    .fb{
+        margin: 0 5px;
+        padding: 5px;
+    }
+    
+    .tw{
+        margin: 0 5px;
+        padding: 5px;
+    }
+    
+    .ig{
+        margin: 0 5px;
+        padding: 5px;
+    }
+
+}

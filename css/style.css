@@ -23,7 +23,8 @@ header {
 
 footer {
   background-color: #313131;
-  box-shadow: 0 4px 4px #7d7d7de8; }
+  box-shadow: 0 4px 4px #7d7d7de8;
+  padding: 10px 0px; }
 
 h2 {
   margin-top: 25px;
@@ -127,7 +128,8 @@ li {
     padding: 5px; } }
 
 * {
-  font-family: PT sans; }
+  font-family: PT sans;
+  box-sizing: border-box; }
 
 /* Carousel */
 .ancho {

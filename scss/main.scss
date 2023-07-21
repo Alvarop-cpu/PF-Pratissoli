@@ -9,15 +9,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans:wght@700&display=swap');
 *{
     font-family: PT sans;
-    box-sizing: border-box;
 }
-/* Carousel */
-.ancho{ 
-    width: 100%;
-    margin: auto;
-    align-content: center;
-} 
-/* Logo */
+
 .Logo1{
     width: 50px;
+}
+
+.salto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    color: rgb(228, 228, 228);
 }

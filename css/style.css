@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans:wght@700&display=swap");
+.Logo1 {
+  width: 50px; }
+
 h1 {
   font-size: 35x;
   text-align: center; }
@@ -23,7 +26,7 @@ header {
 
 footer {
   background-color: #313131;
-  box-shadow: 0 4px 4px #7d7d7de8;
+  box-shadow: 0 4px 4px rgba(125, 125, 125, 0.91);
   padding: 10px 0px; }
 
 h2 {
@@ -72,6 +75,10 @@ li {
 .videos {
   margin: 20px;
   padding: 20px; }
+
+.carousel-item img {
+  width: 100%;
+  height: 850px; }
 
 @media screen and (max-width: 768px) {
   header {
@@ -128,15 +135,14 @@ li {
     padding: 5px; } }
 
 * {
-  font-family: PT sans;
-  box-sizing: border-box; }
+  font-family: PT sans; }
 
-/* Carousel */
-.ancho {
-  width: 100%;
-  margin: auto;
-  align-content: center; }
-
-/* Logo */
 .Logo1 {
   width: 50px; }
+
+.salto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  color: #e4e4e4; }

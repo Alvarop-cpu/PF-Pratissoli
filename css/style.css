@@ -3,27 +3,29 @@
   width: 50px; }
 
 h1 {
-  font-size: 35x;
+  font-size: 35px;
   text-align: center; }
 
 header {
   box-shadow: 0 4px 4px #464646e8; }
-  header .navbar {
-    background-color: #313131 !important; }
-  header .navbar-toggler {
+
+.navbar {
+  background-color: #313131 !important; }
+  .navbar-toggler {
     background-color: white;
     color: #6c6c6c; }
-  header .navegacion div ul li a {
-    display: flex;
-    color: white;
-    flex-direction: row; }
-  header .nav-link:hover {
+
+.navegacion div ul li a {
+  display: flex;
+  color: white;
+  flex-direction: row; }
+  .navegacion div ul li a:hover {
     color: #6c6c6c; }
 
 footer {
   background-color: #313131;
-  box-shadow: 0 4px 4px rgba(125, 125, 125, 0.91);
-  padding: 10px 0px; }
+  box-shadow: 0 4px 4px #464646e8;
+  padding: 10px 0; }
   footer h2 {
     margin-top: 25px;
     text-align: center;
@@ -31,20 +33,25 @@ footer {
   footer ul {
     text-align: center;
     list-style: none;
-    color: white; }
-  footer li {
-    text-decoration: none; }
+    color: white;
+    display: flex;
+    justify-content: center; }
+    footer ul li {
+      text-decoration: none;
+      margin: 0 10px; }
   footer .Redes {
     text-align: center; }
-  footer .fb {
-    margin: 0 5px;
-    padding: 5px; }
-  footer .tw {
-    margin: 0 5px;
-    padding: 5px; }
-  footer .ig {
-    margin: 0 5px;
-    padding: 5px; }
+    footer .Redes .fb {
+      margin: 0 5px;
+      padding: 5px; }
+    footer .Redes .tw {
+      margin: 0 5px;
+      padding: 5px; }
+    footer .Redes .ig {
+      margin: 0 5px;
+      padding: 5px; }
+    footer .Redes .Redes:hover {
+      background-color: #808080; }
   footer .legales {
     text-align: center; }
 
@@ -123,9 +130,6 @@ footer {
 
 * {
   font-family: PT sans; }
-
-.Logo1 {
-  width: 50px; }
 
 .salto {
   display: flex;

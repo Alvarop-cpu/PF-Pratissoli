@@ -1,39 +1,58 @@
-footer{
-    background-color: #313131;
-    box-shadow: 0 4px 4px hsla(0, 0%, 49%, 0.91);
-    padding: 10px 0px;
-    h2{
-    margin-top: 25px;
-    text-align: center;
-    color: white;
+$gris: #313131 ;
+$blanco: white ;
+$sombra: #464646e8;
+$click: #6c6c6c;
+footer {
+    background-color: $gris;
+    box-shadow: 0 4px 4px $sombra;
+    padding: 10px 0;
+  
+    h2 {
+      margin-top: 25px;
+      text-align: center;
+      color: $blanco;
     }
-    ul{
-    text-align: center ;
-    list-style: none ;
-    color: white;
+  
+    ul {
+      text-align: center;
+      list-style: none;
+      color: $blanco;
+      display: flex;
+      justify-content: center;
+  
+      li {
+        text-decoration: none;
+        margin: 0 10px;
+      }
     }
-    li{
-    text-decoration: none;
+  
+    .Redes {
+      text-align: center;
+  
+      .fb {
+        margin: 0 5px;
+        padding: 5px;
+      }
+  
+      .tw {
+        margin: 0 5px;
+        padding: 5px;
+      }
+  
+      .ig {
+        margin: 0 5px;
+        padding: 5px;
+      }
+    .Redes:hover{
+        background-color: #808080;
     }
-    .Redes{
-        text-align: center;
     }
-    .fb{
-    margin: 0 5px;
-    padding: 5px;
+  
+    .legales {
+      text-align: center;
     }
-    .tw{
-    margin: 0 5px;
-    padding: 5px;
-    } 
-    .ig{
-    margin: 0 5px;
-    padding: 5px;
-    }   
-    .legales{
-     text-align: center;
-    }
-}
+  }
+  
 
 
 

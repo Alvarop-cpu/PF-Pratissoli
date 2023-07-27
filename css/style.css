@@ -8,54 +8,45 @@ h1 {
 
 header {
   box-shadow: 0 4px 4px #464646e8; }
-
-.navbar {
-  background-color: #313131 !important; }
-
-.navbar-toggler {
-  background-color: white;
-  color: #6c6c6c; }
-
-.navegacion div ul li a {
-  display: flex;
-  color: white;
-  flex-direction: row; }
-
-.nav-link:hover {
-  color: #6c6c6c; }
+  header .navbar {
+    background-color: #313131 !important; }
+  header .navbar-toggler {
+    background-color: white;
+    color: #6c6c6c; }
+  header .navegacion div ul li a {
+    display: flex;
+    color: white;
+    flex-direction: row; }
+  header .nav-link:hover {
+    color: #6c6c6c; }
 
 footer {
   background-color: #313131;
   box-shadow: 0 4px 4px rgba(125, 125, 125, 0.91);
   padding: 10px 0px; }
-
-h2 {
-  margin-top: 25px;
-  text-align: center;
-  color: white; }
-
-ul {
-  text-align: center;
-  list-style: none;
-  color: white; }
-
-li {
-  text-decoration: none; }
-
-.d-flex {
-  justify-content: center; }
-
-.fb {
-  margin: 0 5px;
-  padding: 5px; }
-
-.tw {
-  margin: 0 5px;
-  padding: 5px; }
-
-.ig {
-  margin: 0 5px;
-  padding: 5px; }
+  footer h2 {
+    margin-top: 25px;
+    text-align: center;
+    color: white; }
+  footer ul {
+    text-align: center;
+    list-style: none;
+    color: white; }
+  footer li {
+    text-decoration: none; }
+  footer .Redes {
+    text-align: center; }
+  footer .fb {
+    margin: 0 5px;
+    padding: 5px; }
+  footer .tw {
+    margin: 0 5px;
+    padding: 5px; }
+  footer .ig {
+    margin: 0 5px;
+    padding: 5px; }
+  footer .legales {
+    text-align: center; }
 
 .antezana {
   width: 300px; }

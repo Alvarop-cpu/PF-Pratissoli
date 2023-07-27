@@ -7,22 +7,26 @@ h1{
 }
 header{
     box-shadow: 0 4px 4px #464646e8;
-}
-
-.navbar{
+    .navbar{
     background-color:  #313131 !important;
-}
-.navbar-toggler{
+    }
+    .navbar-toggler{
     background-color: white;
     color:  #6c6c6c;
-}
-
-.navegacion div ul li a{
+    }
+    .navegacion div ul li a{
     display: flex;
     color: white;
     flex-direction: row;
+    }
+    .nav-link:hover{
+    color: #6c6c6c;
+    }
 }
 
-.nav-link:hover{
-    color: #6c6c6c;
-}
+
+
+
+
+
+

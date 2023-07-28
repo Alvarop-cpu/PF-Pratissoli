@@ -1,15 +1,29 @@
+$gris: #313131 ;
 .antezana{
     width: 300px;
+    border-radius: 5px;
 }
 
 .hecho{
     width: 300px;
+    border-radius: 5px;
 }
 
 .tdv{
     width: 300px;
+    border-radius: 5px;
 }
 
 .ysysmo{
     width: 300px;
+    border-radius: 5px;
+}
+.buttons{    
+    color: rgb(228, 228, 228);
+    background-color: $gris;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.0em;
+
 }

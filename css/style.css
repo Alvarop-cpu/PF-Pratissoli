@@ -26,7 +26,9 @@ footer {
   background-color: #313131;
   box-shadow: 0 4px 4px #464646e8;
   padding: 10px 0; }
-  footer h2 {
+  footer h3 {
+    color: white;
+    font-size: 25px;
     margin-top: 25px;
     text-align: center;
     color: white; }
@@ -40,15 +42,15 @@ footer {
       text-decoration: none;
       margin: 0 10px; }
   footer .Redes {
-    text-align: center; }
+    display: inline; }
     footer .Redes .fb {
-      margin: 0 5px;
+      margin: 0 10px;
       padding: 5px; }
     footer .Redes .tw {
-      margin: 0 5px;
+      margin: 0 10px;
       padding: 5px; }
     footer .Redes .ig {
-      margin: 0 5px;
+      margin: 0 10px;
       padding: 5px; }
     footer .Redes .Redes:hover {
       background-color: #808080; }
@@ -67,8 +69,31 @@ footer {
 .ysysmo {
   width: 300px; }
 
-.quinto {
-  width: 400px; }
+.container {
+  padding: 40px; }
+  .container .Alejo {
+    border-radius: 10px;
+    width: 300px; }
+  .container .quinto {
+    border-radius: 10px; }
+  .container .mododiablo {
+    border-radius: 10px;
+    width: 400px; }
+
+.subtitulo1 {
+  color: #313131 !important;
+  text-align: center;
+  font-size: 20px; }
+
+.subtitulo2 {
+  color: #313131 !important;
+  text-align: center;
+  font-size: 20px; }
+
+.subtitulo3 {
+  color: #313131 !important;
+  text-align: center;
+  font-size: 20px; }
 
 .videos {
   margin: 20px;
@@ -106,7 +131,7 @@ footer {
   footer {
     background-color: #313131;
     box-shadow: 0 4px 4px #7d7d7de8; }
-  h2 {
+  h3 {
     margin-top: 25px;
     text-align: center;
     color: white; }

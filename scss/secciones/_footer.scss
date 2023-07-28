@@ -7,7 +7,9 @@ footer {
     box-shadow: 0 4px 4px $sombra;
     padding: 10px 0;
   
-    h2 {
+    h3 {
+        color: white;
+        font-size: 25px;
       margin-top: 25px;
       text-align: center;
       color: $blanco;
@@ -27,20 +29,20 @@ footer {
     }
   
     .Redes {
-      text-align: center;
+        display: inline;
   
       .fb {
-        margin: 0 5px;
+        margin: 0 10px;
         padding: 5px;
       }
   
       .tw {
-        margin: 0 5px;
+        margin: 0 10px;
         padding: 5px;
       }
   
       .ig {
-        margin: 0 5px;
+        margin: 0 10px;
         padding: 5px;
       }
     .Redes:hover{

@@ -57,29 +57,31 @@ footer {
   footer .legales {
     text-align: center; }
 
-.antezana {
-  width: 300px;
-  border-radius: 5px; }
+.Album1 {
+  width: 300px; }
 
-.hecho {
-  width: 300px;
-  border-radius: 5px; }
+.Album2 {
+  width: 300px; }
 
-.tdv {
-  width: 300px;
-  border-radius: 5px; }
+.Album3 {
+  width: 300px; }
 
-.ysysmo {
-  width: 300px;
-  border-radius: 5px; }
+.Album4 {
+  width: 300px; }
 
 .buttons {
   color: #e4e4e4;
   background-color: #313131;
-  margin: 20px;
+  margin: 25px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 1.0em; }
+
+.Tracklists {
+  color: black;
+  list-style: decimal; }
+  .Tracklists li {
+    padding: 5px; }
 
 .T {
   padding: 20px;

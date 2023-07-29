@@ -1,29 +1,31 @@
 $gris: #313131 ;
-.antezana{
+.Album1{
     width: 300px;
-    border-radius: 5px;
 }
 
-.hecho{
+.Album2{
     width: 300px;
-    border-radius: 5px;
 }
 
-.tdv{
+.Album3{
     width: 300px;
-    border-radius: 5px;
 }
 
-.ysysmo{
+.Album4{
     width: 300px;
-    border-radius: 5px;
 }
 .buttons{    
     color: rgb(228, 228, 228);
     background-color: $gris;
-    margin: 20px;
+    margin: 25px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 1.0em;
-
+}
+.Tracklists{
+    li{
+        padding: 5px;
+    }
+    color: black;
+    list-style: decimal;
 }

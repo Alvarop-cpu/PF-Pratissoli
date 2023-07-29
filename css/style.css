@@ -57,6 +57,12 @@ footer {
   footer .legales {
     text-align: center; }
 
+.TitulosAlbums {
+  font-size: 25px; }
+
+img:hover {
+  padding: 10px; }
+
 .Album1 {
   width: 300px; }
 

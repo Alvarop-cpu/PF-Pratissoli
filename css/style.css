@@ -4,7 +4,8 @@
 
 h1 {
   font-size: 35px;
-  text-align: center; }
+  text-align: center;
+  padding: 10px; }
 
 header {
   box-shadow: 0 4px 4px #464646e8; }
@@ -60,20 +61,25 @@ footer {
 .TitulosAlbums {
   font-size: 25px; }
 
-img:hover {
-  padding: 10px; }
-
 .Album1 {
   width: 300px; }
+  .Album1:hover {
+    padding: 5px; }
 
 .Album2 {
   width: 300px; }
+  .Album2:hover {
+    padding: 10px; }
 
 .Album3 {
   width: 300px; }
+  .Album3:hover {
+    padding: 10px; }
 
 .Album4 {
   width: 300px; }
+  .Album4:hover {
+    padding: 10px; }
 
 .buttons {
   color: #e4e4e4;
@@ -283,8 +289,12 @@ img:hover {
   font-family: PT sans; }
 
 .salto {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  text-align: center;
-  color: #e4e4e4; }
+  height: auto; }
+
+.intro {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  text-align: center; }

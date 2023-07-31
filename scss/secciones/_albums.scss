@@ -2,23 +2,32 @@ $gris: #313131 ;
 .TitulosAlbums{
     font-size: 25px;
 }    
-img:hover{
-    padding: 10px;
-}
 .Album1{
+    &:hover{
+        padding: 5px;
+    }
     width: 300px;
 }
 
 .Album2{
     width: 300px;
+    &:hover{
+        padding: 10px;
+    }
 }
 
 .Album3{
     width: 300px;
+    &:hover{
+        padding: 10px;
+    }
 }
 
 .Album4{
     width: 300px;
+    &:hover{
+        padding: 10px;
+    }
 }
 .buttons{    
     color: rgb(228, 228, 228);

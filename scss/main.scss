@@ -11,9 +11,15 @@
     font-family: PT sans;
 }
 .salto{
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    text-align: center;
-    color: rgb(228, 228, 228);
+    height: auto;
 }
+.intro{
+    color: white;
+    position: absolute;        
+    top: 40%;
+    left: 8%;
+    text-align: center;
+}
+
+

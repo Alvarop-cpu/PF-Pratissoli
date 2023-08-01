@@ -242,9 +242,17 @@ footer {
   width: 100%;
   height: auto; }
 
-.intro {
-  font-size: 20px;
-  color: white;
-  position: absolute;
-  top: 33%;
-  text-align: center; }
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 2000px; }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block; }
+  .image-container p {
+    position: absolute;
+    bottom: 200px;
+    background-color: rgba(53, 51, 51, 0.522);
+    color: white;
+    font-size: 20px; }

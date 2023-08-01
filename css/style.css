@@ -104,12 +104,13 @@ footer {
   padding: 40px; }
   .container .Alejo {
     border-radius: 10px;
-    width: 300px; }
+    width: 310px; }
   .container .quinto {
+    width: 310px;
     border-radius: 10px; }
   .container .mododiablo {
     border-radius: 10px;
-    width: 400px; }
+    width: 310px; }
 
 .subtitulo1 {
   color: #313131 !important;
@@ -219,7 +220,7 @@ footer {
     border-radius: 10px; }
   .container .mododiablo {
     border-radius: 10px;
-    width: 400px; }
+    width: 310px; }
   .subtitulo1 {
     color: #313131 !important;
     text-align: center;

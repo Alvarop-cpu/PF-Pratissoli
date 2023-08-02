@@ -127,9 +127,9 @@ footer {
   text-align: center;
   font-size: 20px; }
 
-.videos {
-  margin: 20px;
-  padding: 20px; }
+.entrevistas p {
+  text-align: center;
+  font-size: 20px; }
 
 .carousel-item {
   position: relative; }

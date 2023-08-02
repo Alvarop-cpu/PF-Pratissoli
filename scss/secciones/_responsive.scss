@@ -99,3 +99,16 @@
         margin: 20px;
         padding: 20px; }
       }
+      @media screen and (max-width: 414px) {
+        .image-container {
+          padding: 10px;
+      
+          img {
+            margin-bottom: 10px;
+          }
+      
+          p {
+            font-size: 14px;
+          }
+        }
+      }

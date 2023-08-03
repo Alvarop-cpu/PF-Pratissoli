@@ -29,6 +29,22 @@ $gris: #313131 ;
         padding: 10px;
     }
 }
+.A247{
+    display: flex;
+    justify-content: space-around
+}
+.HAM{
+    display: flex;
+    justify-content: space-around
+}
+.TDV{
+    display: flex;
+    justify-content: space-around
+}
+.YSM{
+    display: flex;
+    justify-content: space-around
+}
 .buttons{    
     color: rgb(228, 228, 228);
     background-color: $gris;
@@ -38,9 +54,13 @@ $gris: #313131 ;
     font-size: 1.0em;
 }
 .Tracklists{
+    background-color: #5d5d5db0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000033;
+    color: white;
+    list-style: decimal;
     li{
         padding: 5px;
     }
-    color: black;
-    list-style: decimal;
+
 }

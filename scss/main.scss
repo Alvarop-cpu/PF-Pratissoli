@@ -10,6 +10,9 @@
 *{
     font-family: PT sans;
 }
+main{
+    min-height: 75vh;
+}
 .salto{
     width: 100%;
     height: auto;
@@ -27,4 +30,22 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px #00000033;
+}
+.Opiniones{
+    background-color: rgba(128, 128, 128, 0.632);
+    box-shadow: 0 0 10px #00000033;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.coment{
+    box-shadow: 0 0 10px #00000033;
+}
+.enviar{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
 }

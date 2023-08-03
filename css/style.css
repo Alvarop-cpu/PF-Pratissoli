@@ -27,7 +27,7 @@ footer {
   background-color: #313131;
   box-shadow: 0 4px 4px #464646e8;
   padding: 10px 0; }
-  footer h2 {
+  footer p {
     color: white;
     font-size: 25px;
     margin-top: 25px;
@@ -192,6 +192,15 @@ th {
 tr:hover {
   background-color: #f9f9f9; }
 
+.entradas {
+  background-color: #b7703a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+
 @media screen and (max-width: 768px) {
   .Logo1 {
     width: 50px; }
@@ -282,6 +291,9 @@ tr:hover {
 * {
   font-family: PT sans; }
 
+main {
+  min-height: 75vh; }
+
 .salto {
   width: 100%;
   height: auto; }
@@ -299,3 +311,21 @@ tr:hover {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px #00000033; }
+
+.Opiniones {
+  background-color: rgba(128, 128, 128, 0.632);
+  box-shadow: 0 0 10px #00000033;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px; }
+
+.coment {
+  box-shadow: 0 0 10px #00000033; }
+
+.enviar {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px; }
